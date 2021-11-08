@@ -130,6 +130,7 @@ Sub AllStocksAnalysisRefactored()
 End Sub
 -	When comparing the original code to the new code there is a slight change in time needed to run the macro.  In 2017 the original code took 0.66 seconds, and the refactored code took 0.679 seconds. For 2018 the original code took 0.664 seconds, and the refactored code took 0.671 seconds.  Both run times are similar but if this was run on larger projects the time variance could become larger.
 -	When comparing 2017 stock returns to 2018 stock returns, it looks like only 2 stocks have a positive return both years ENPH and RUN.  The stock with a negative return both years is TERP.
+-	
  ![image](https://user-images.githubusercontent.com/89753083/140803142-fa0e22cc-f377-4d66-9611-1b4978002d1c.png)
  ![image](https://user-images.githubusercontent.com/89753083/140803186-13e34970-72f3-4393-8a5c-d32768b41f02.png)
 ![image](https://user-images.githubusercontent.com/89753083/140803212-c28b08d3-3156-442e-b586-8c711e68f199.png)
